@@ -329,26 +329,5 @@ const char_check = (char) => {
     return char === '\n' || char === ' ';
 };
 
-
-// console.log(parseCode('function f(x) {\n' +
-//     '\n' +
-//     'let a = 1;\n' +
-//     '\n' +
-//     'if(true){\n' +
-//     '   if(true){\n' +
-//     '     a = 70; \n' +
-//     '   }else{ return 0; }\n' +
-//     '\n' +
-//     '}else if(true){\n' +
-//     '  if(false){\n' +
-//     '    return 2; \n' +
-//     '   } \n' +
-//     '   else{\n' +
-//     '     return 3;\n' +
-//     '    }\n' +
-//     '}\n' +
-//     'return x + a;\n' +
-//     '}',"(x=1, y=2, z=3)"));
-
 // module.exports = (parseCode);
 export {parseCode};
